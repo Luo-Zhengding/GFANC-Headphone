@@ -1,3 +1,4 @@
 # GFANC-Headphone
-This repository will contain the code for the paper "**Delayless and Transferable Deep Learning-Based GFANC: Theoretical Analysis and Headphone Implementation**," submitted to the **IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP)** journal. The code will be provided after the paper review process is completed.
+This repository contains the code for the paper "**Deep Learning-Based Generative Fixed-Filter Active Noise Control: Transferability and Implementation**," published in the **Mechanical Systems and Signal Processing** journal. The paper link is [Paper Link](https://www.sciencedirect.com/science/article/abs/pii/S0888327025009082)
 
+This is a collaborative research work between the Digital Signal Processing Lab at Nanyang Technological University, Northwestern Polytechnical University, and National University of Singapore.
