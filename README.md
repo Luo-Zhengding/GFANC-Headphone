@@ -13,3 +13,18 @@ The **deep learning-based Generative Fixed-Filter Active Noise Control (GFANC)**
 </p>
 
 <br>
+
+## Headphone Implementation of GFANC
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c64f081a-c6aa-42c3-90a1-282e3363c612" width="600"><br>
+  The framework of the deep learning-based GFANC method
+</p>
+
+<br>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/77d93a69-efef-4c95-bd0f-4095e663988d" width="350"> 
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <!-- 使用空格来创建间隔 -->
+  <img src="https://github.com/user-attachments/assets/cf21e9b7-d30c-4da7-a721-bc0fd871ba0f" width="350">
+  <br>
+  Parameter update for the critic and actor in the RL algorithm.
+</p>
