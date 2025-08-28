@@ -38,3 +38,26 @@ The CNN model and sub control filters in GFANC can operate independently, allowi
 - In this system, the co-processor is a laptop equipped with Intel(R) Core(TM) i7-10870H CPU, which runs the trained CNN to predict the weight vector for the incoming noise.
 - Simultaneously, an embedded PXI processing unit (NI PXIe-8135) with a pre-amplifier, an I/O unit, and an output amplifier serves as the real-time controller to perform immediate noise control.
 - If the relative error between the predicted weight vector and the current weight vector exceeds a threshold, the laptop transmits the predicted weight vector to the PXI processing unit via UDP.
+
+## Related Publications
+1. **Deep Generative Fixed-Filter Active Noise Control**  
+   *Conference*: IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2023)  
+   *Paper Link*: [IEEE](https://ieeexplore.ieee.org/document/10095205) &nbsp; *Code Link*: [GitHub](https://github.com/Luo-Zhengding/GFANC-Generative-fixed-filter-active-noise-control)
+
+2. **Delayless Generative Fixed-filter Active Noise Control based on Deep Learning and Bayesian Filter**  
+   *Journal*: IEEE/ACM Transactions on Audio, Speech, and Language Processing, 2024, 32: 1048-1060.  
+   *Paper Link*: [IEEE](https://ieeexplore.ieee.org/document/10339836/) &nbsp; *Code Link*: [GitHub](https://github.com/Luo-Zhengding/GFANC-Bayes)
+
+3. **GFANC-Kalman: Generative Fixed-Filter Active Noise Control with CNN-Kalman Filtering**  
+   *Journal*: IEEE Signal Processing Letters, 2024, 31: 276-280.  
+   *Paper Link*: [IEEE](https://ieeexplore.ieee.org/document/10323505) &nbsp; *Code Link*: [GitHub](https://github.com/Luo-Zhengding/GFANC-Kalman)
+
+4. **GFANC-RL: Reinforcement Learning-based Generative Fixed-filter Active Noise Control**  
+   *Journal*: Neural Networks, 2024, 106687.
+   *Paper Link*: [ScienceDirect](https://doi.org/10.1016/j.neunet.2024.106687) &nbsp; *Code Link*: [GitHub](https://github.com/Luo-Zhengding/GFANC-RL)
+
+5. **Unsupervised Learning based End-to-end Delayless Generative Fixed-filter Active Noise Control**
+   *Conference*: IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)  
+   *Paper Link*: [IEEE](https://ieeexplore.ieee.org/document/10448277) &nbsp; *Code Link*: [GitHub](https://github.com/Luo-Zhengding/Unsupervised-GFANC)
+
+**If you are interested in our works, please consider citing our papers. Thanks! Have a great day!**
