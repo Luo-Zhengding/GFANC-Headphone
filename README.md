@@ -37,4 +37,4 @@ The CNN model and sub control filters in GFANC can operate independently, allowi
 
 - In this system, the co-processor is a laptop equipped with Intel(R) Core(TM) i7-10870H CPU, which runs the trained CNN to predict the weight vector for the incoming noise.
 - Simultaneously, an embedded PXI processing unit (NI PXIe-8135) with a pre-amplifier, an I/O unit, and an output amplifier serves as the real-time controller to perform immediate noise control.
-- If the relative error between the predicted weight vector and the current weight vector exceeds the relative error threshold $\delta$, the laptop transmits the predicted weight vector to the PXI processing unit via UDP.
+- If the relative error between the predicted weight vector and the current weight vector exceeds a threshold, the laptop transmits the predicted weight vector to the PXI processing unit via UDP.
