@@ -14,6 +14,8 @@ The **deep learning-based Generative Fixed-Filter Active Noise Control (GFANC)**
 
 <br>
 
+The **dual-rate** structure allows GFANC to leverage the learning capabilities of the CNN to systematically enhance noise control performance while ensuring delayless noise reduction. The co-processor employs a lightweight CNN to automatically generate a weight vector for each frame of noise data. By calculating the inner product of this weight vector and sub control filters, a new control filter is generated and subsequently used for real-time noise control at the sampling rate.
+
 ## Headphone Implementation of GFANC
 <p align="center">
   <img src="https://github.com/user-attachments/assets/c64f081a-c6aa-42c3-90a1-282e3363c612" width="600"><br>
